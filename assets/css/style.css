@@ -12,6 +12,15 @@ p {
 }
 
 /*Custom Classes and IDs*/
+
+#about-container {
+    background-color: white;
+    opacity: .9;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .header-img {
     height: 100vh;
     opacity: .5;
@@ -23,7 +32,7 @@ p {
     z-index: -99;
     position: fixed;
     top: 0;
-    }
+}
 
 .title {
     font-family: 'Overlock SC', cursive;
@@ -41,17 +50,21 @@ p {
     text-align: center;
 }
 
-.vert-nav {
-    background-color: #CBE5FF;
-    height: 100vh;
+#landing-nav {
     opacity: .8;
 }
 
-#portfolio-bg {
-    background-color: darkseagreen;
+.vert-nav {
+    background-color: #CBE5FF;
+    height: 100vh;
 }
 
-.portfolio-img {
+.pattern-bg {
+    background: url("/assets/images/black-thread.png");
+    background-color: aqua;
+}
+
+.portfolio-img, .about-img {
     border: 5px white solid;
     margin-bottom: 30px;
 }
@@ -85,6 +98,10 @@ p {
 }
 
 .container-fluid {
+    padding: 0px;
+}
+
+.container {
     padding: 0px;
 }
 
