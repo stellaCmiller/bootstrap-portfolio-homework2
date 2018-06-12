@@ -54,10 +54,6 @@ p {
     opacity: .8;
 }
 
-.vert-nav {
-    background-color: #CBE5FF;
-    height: 100vh;
-}
 
 .pattern-bg {
     background: url("/assets/images/dark-geometric.png");
@@ -91,6 +87,11 @@ p {
     color: white;
  }
 
+ .vert-nav {
+    background-color: #CBE5FF;
+    height: 100vh;
+}
+
 /*Bootstrap Class overrides*/
 .nav-link {
     color: black;
@@ -120,5 +121,23 @@ p {
 }
 
 /*Responsive Design*/
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 100%;
+        overflow: auto;
+    }
 
+    .vert-nav {
+        height: auto;
+    }
 
+    #landing-bg {
+        display: none;
+    }
+
+    .title-card {
+        background: url("/assets/images/dark-geometric.png");
+        background-color: aqua;
+    }
+
+}
