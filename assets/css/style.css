@@ -60,13 +60,23 @@ p {
 }
 
 .pattern-bg {
-    background: url("/assets/images/black-thread.png");
+    background: url("/assets/images/dark-geometric.png");
     background-color: aqua;
 }
 
 .portfolio-img, .about-img {
     border: 5px white solid;
     margin-bottom: 30px;
+}
+
+.social {
+    position: relative;
+    left: 36%;
+}
+
+.social img {
+    padding: 5px;
+    opacity: 1;
 }
 
 .thumbnail {
