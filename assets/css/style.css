@@ -70,6 +70,18 @@ nav {
     margin-bottom: 30px;
 }
 
+.portfolio-img {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.portfolio-img:hover {
+    opacity:.7;
+}
+
 .social {
     position: relative;
     left: 36%;
