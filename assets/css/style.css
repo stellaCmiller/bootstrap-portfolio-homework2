@@ -92,6 +92,7 @@ nav {
     color: white;
  }
 
+ /*Makes the footer sticky when applied to closest sibling*/
  .sticky {
      flex: 1 0 auto;
  }
@@ -140,6 +141,7 @@ nav {
         width: 25%;
     }
 
+    /*Because the side nav is fixed in place, the content columns need to be full height on large screens in order to have their content centered*/
     .full-col {
         height: 100vh;
         margin: 0;
@@ -161,6 +163,7 @@ nav {
 @media screen and (min-width:769px) and (max-width:991px){
     
     body {overflow: auto;}
+    #landing-nav {opacity: 1;}
 }
 
 /*Mobile Screens (What bootstrap considers 'small')*/
@@ -171,12 +174,11 @@ nav {
         overflow: auto;
     }
 
-    #landing-bg {
-        display: none;
-    }
+    #landing-bg {display: none;}
+    #landing-nav {opacity: 1;}
 
-    .title-card {
-        background: url("./assets/images/dark-geometric.png");
+    #landing-page{
+        background: url("/assets/images/dark-geometric.png");
         background-color: aqua;
     }
 
