@@ -1,5 +1,5 @@
 body {
-    background: url("../assets/images/dark-geometric.png");
+    background: url("../images/dark-geometric.png");
     background-color: aqua;
     display: flex;
     flex-direction: column;
@@ -174,11 +174,21 @@ nav {
         overflow: auto;
     }
 
+    .about-img {
+        margin-bottom: 20px;
+    }
+
+    #about-container {
+        width: 95%;
+        margin: auto;
+    }
+
+
     #landing-bg {display: none;}
     #landing-nav {opacity: 1;}
 
     #landing-page{
-        background: url("/assets/images/dark-geometric.png");
+        background: url("../images/dark-geometric.png");
         background-color: aqua;
     }
 
