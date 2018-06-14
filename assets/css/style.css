@@ -1,5 +1,5 @@
 body {
-    background: url("/assets/images/dark-geometric.png");
+    background: url("../assets/images/dark-geometric.png");
     background-color: aqua;
     display: flex;
     flex-direction: column;
