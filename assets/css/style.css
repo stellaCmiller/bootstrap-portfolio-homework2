@@ -76,6 +76,8 @@ nav {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+    width: 300px;
+    max-height: 250px;
 }
 
 .portfolio-img:hover {
