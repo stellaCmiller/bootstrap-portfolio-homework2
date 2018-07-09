@@ -31,6 +31,21 @@ p {margin-right: 20px;}
     border-radius: 5px;
 }
 
+.description{
+    display: none;
+    position: relative;
+    padding: 10px;
+}
+
+.current{
+    display: inline-block;
+    position: relative;
+}
+
+#return{
+    box-align: center;
+}
+
 .header-img {
     height: 100vh;
     opacity: .5;
@@ -71,11 +86,6 @@ nav {
 }
 
 .portfolio-img {
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
     width: 300px;
     max-height: 250px;
 }
@@ -140,6 +150,7 @@ nav {
 }
 .container {padding: 0px;}
 .form-control {width: 90%;}
+
 
 /*Responsive Design (mostly changing the navbar behavior)*/
 
