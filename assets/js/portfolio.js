@@ -37,7 +37,7 @@ $(".col-md-4").click(function(){
 $("body").on("click", "#return", function(){
     if (selected){
         $(".description").css("display", "none");
-        $("#buttons").empty();
+        $("#buttons").remove();
         $(".test-class").fadeToggle("fast");
         $(".current").addClass("test-class").removeClass("current");
     }
