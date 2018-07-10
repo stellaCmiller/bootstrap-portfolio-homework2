@@ -58,10 +58,11 @@ p {margin-right: 20px;}
     position: fixed;
     top: 0;
     left: 0;
+    opacity: .7;
 }
 
 #landing-nav {
-    opacity: .8 
+    opacity: .9
 }
 
 nav {
