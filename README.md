@@ -5,5 +5,5 @@ This is my personal and 100% original Bootstrap powered portfolio site! I've rec
 ## To Do List
 
 * Recreate the slide animation on the portfolio page to work in reverse
-* Add social media buttons/links to the about me page
+* Add social media buttons/links to the about me page, possibly using FA
 * Even up the description boxes to be flush with the images
