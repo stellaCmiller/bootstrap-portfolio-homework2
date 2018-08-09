@@ -1,4 +1,4 @@
-##MY PORTFOLIO SITE HAS MOVED!!!!!!!!!!
+## MY PORTFOLIO SITE HAS MOVED!!!!!!!!!!
 please check out my new awesome react portfolio site at github.com/stellaCmiller/stellamiller-portfolio
 
 ## Stella's Portfolio Site
